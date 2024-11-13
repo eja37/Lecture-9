@@ -21,3 +21,5 @@ else{
     house = "Fail"
     console.log(house);
 }
+
+number > 90 ? "Grade A" : "Grade B"
