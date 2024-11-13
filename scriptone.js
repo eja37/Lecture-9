@@ -1,21 +1,8 @@
-var age = 20;
+let house;
 
-var age;
+let FirstName = "Harry";
 
-age = 100;
-
-
-let LastName = "Harry";
-
-LastName = "Potter";
-
-let FirstName = "Edna Janet";
-
-
-console.log(FirstName + "Edna Janet"+LastName)
-
-const valuePi = 3.14;
-
-valuePi = 3.14;
-
-console.log(valuePi);
+if (FirstName == "Harry"){
+    house = "Gryffindor"; 
+    console.log(house)
+}
