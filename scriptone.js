@@ -1,8 +1,12 @@
 let house;
 
-let FirstName = "Harry";
+let number = 100;
 
-if (FirstName == "Harry"){
-    house = "Gryffindor"; 
-    console.log(house)
+if (number != 50){
+    house = "The numbers are same"; 
+    console.log(house);
+}
+else{
+    house = "The numbers are not same"
+    console.log(house);
 }
