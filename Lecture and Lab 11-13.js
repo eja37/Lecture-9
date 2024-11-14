@@ -53,3 +53,11 @@ console.log(a > b);
 console.log(a < b);
 console.log(a >= b);
 console.log(a <= b);
+
+let first_name = "Edna";
+let last_name = "Argueta-Estrada";
+let my_age = 18;
+
+let message = `Hello, ${first_name} ${last_name}, you are ${my_age} years old.`;
+console.log(message);
+
