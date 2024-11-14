@@ -19,3 +19,9 @@ if (RollNumber > 10){
     house = "RollNumber is greater than 10";
     console.log(house)
 }
+
+let isMember = 8;
+if (isMember < 10){
+    house = "Member discount applied";
+    console.log(house)
+}
