@@ -79,3 +79,15 @@ else{
     house = "Check your driving elegibility"
     console.log(house)
 }
+
+
+//Question 10//
+let num = 21;
+if (num % 2==0){
+    house = "Number is even";
+    console.log(house);
+}
+else{
+    house = "Number is odd";
+    console.log(house)
+}
