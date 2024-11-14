@@ -66,3 +66,16 @@ if (numb > 0 && numb <100){
     house = "Number is within range"
     console.log(house)
 }
+
+let hasCar = true;
+let hasLicense = true;
+let hasInsurance = true;
+if (hasCar && hasLicense && hasInsurance){
+    house = "You can drive legally"
+    console.log(house)
+}
+
+else{
+    house = "Check your driving elegibility"
+    console.log(house)
+}
