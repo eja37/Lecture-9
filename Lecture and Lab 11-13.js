@@ -61,3 +61,8 @@ let my_age = 18;
 let message = `Hello, ${first_name} ${last_name}, you are ${my_age} years old.`;
 console.log(message);
 
+let numb = 50;
+if (numb > 0 && numb <100){
+    house = "Number is within range"
+    console.log(house)
+}
