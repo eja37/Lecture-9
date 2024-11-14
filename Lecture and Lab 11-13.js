@@ -13,3 +13,9 @@ if (number > 40){
     console.log(number)
     console.log(house)
 }
+
+let RollNumber = 15;
+if (RollNumber > 10){
+    house = "RollNumber is greater than 10";
+    console.log(house)
+}
