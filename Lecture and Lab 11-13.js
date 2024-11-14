@@ -25,3 +25,4 @@ if (isMember < 10){
     house = "Member discount applied";
     console.log(house)
 }
+
