@@ -26,3 +26,19 @@ if (isMember < 10){
     console.log(house)
 }
 
+let startValue = 50;
+if(startValue > 0){
+    house = "Positive"
+    console.log(house)
+}
+
+else if (startValue < 0){
+    house = "Negative"
+    console.log(house)
+}
+
+else {
+    startValue = zero;
+    console.log(house)
+}
+
