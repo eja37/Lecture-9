@@ -23,3 +23,18 @@ else{
 }
 
 number > 90 ? "Grade A" : "Grade B"
+
+for(let i=1; i<=50; i++)
+    {
+        console.log("harry");
+    }
+
+//DOuble quotes is a string//
+let Firstname = "Edna Janeth";
+let Lastname ="Argueta-Estrada";
+
+console.log(`Hello, ${Firstname} ${Lastname}`);
+
+let book = "Harry Potter";
+
+console.log( book.replace("Potter", "Gryffindor"));
