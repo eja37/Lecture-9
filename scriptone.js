@@ -53,13 +53,13 @@ document.getElementById('btn1').addEventListener('click', AddNumbers);
 let firstname = 'Harry'; 
 let pass = 'potter';
 
-document.getElementById('form1').addEventListener('submit', function(event)){
+document.getElementById('form1').addEventListener('submit', function(event){
     if(document.getElementById('username').value == firstname && document.getElementById('password').value == password){
         console.log('login success')
     }
 else{
     event.preventDefault();
 }
-}
+})
 
 document.querySelector('.div1 #id1')
