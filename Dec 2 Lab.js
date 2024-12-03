@@ -31,3 +31,12 @@ function updateTitle(){
     document.getElementById('title').innerText = document.getElementById('inputField').value;
 }
 
+//Q5//
+document.getElementById('btn4').onclick = function(){
+    combineStrings();
+
+}
+
+function combineStrings(){
+    document.getElementById('combinedText').innerText = document.getElementById('input1').value + document.getElementById('input2').value;
+}
