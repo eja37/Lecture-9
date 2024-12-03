@@ -13,11 +13,11 @@ function changeText(){
 document.getElementById('btn1').addEventListener('click', changeText)
 
 //Q3//
-function retrieveNumber(){
-    let numb1 = document.getElementById('num1').value;
-    let numb2 = document.getElementById('num2').value;
+function addNumber(){
+    let inputNumber1 = document.getElementById('num1').value;
+    let inputNumber2 = document.getElementById('num2').value;
 
-    let sum = numb1 + numb2;
+    let sum = number(numb1) + number(numb2);
 
     document.getElementById('result').innerText = "result: " + sum;
 
