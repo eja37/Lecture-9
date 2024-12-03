@@ -22,3 +22,12 @@ function addNumber(){
     document.getElementById('result').innerText = "result: " + sum;
 
 }
+
+//Q4//
+document.getElementById('btn3').onclick = function(){
+    updateTitle();
+}
+function updateTitle(){
+    document.getElementById('title').innerText = document.getElementById('inputField').value;
+}
+
