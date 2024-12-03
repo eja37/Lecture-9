@@ -14,5 +14,11 @@ document.getElementById('btn1').addEventListener('click', changeText)
 
 //Q3//
 function retrieveNumber(){
-    document.getElementById('btn2').addEventListener('click', retrieveNumber)
+    let numb1 = document.getElementById('num1').value;
+    let numb2 = document.getElementById('num2').value;
+
+    let sum = numb1 + numb2;
+
+    document.getElementById('result').innerText = "result: " + sum;
+
 }
